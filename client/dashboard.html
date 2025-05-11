@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <style>
+        a{
+            text-decoration: none;
+            
+        }
+    </style> -->
+</head>
+<body>
+    <header>
+        <h1>Student Enrollment Portal</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="enroll.html">Enroll Now</a>
+            <a href="view_students.html">View Students</a>
+            <a href="#" id="logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <div class="dashboard">
+            <h2>Welcome, <span id="userName"></span>!</h2>
+            <div class="dashboard-cards">
+                <div class="card">
+                    <h3>Enroll in a Course</h3>
+                    <p>Register for your desired program</p>
+                    <a href="enroll.html" class="btn" >Enroll Now</a>
+                </div>
+                <div class="card">
+                    <h3>View Students</h3>
+                    <p>See all enrolled students</p>
+                    <a href="view_students.html" class="btn">View</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/auth.js"></script>
+</body>
+</html>
